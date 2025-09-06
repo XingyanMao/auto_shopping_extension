@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Auto Shopping Bot</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 16px;
+      width: 280px;
+      background: #f9fafb;
+      color: #333;
+      text-align: center;
+    }
+    h3 {
+      margin: 0 0 16px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #111;
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      font-size: 14px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+    }
+    #buyBtn {
+      background: #2563eb;
+      color: #fff;
+    }
+    #buyBtn:hover {
+      background: #1d4ed8;
+      transform: scale(1.02);
+    }
+    #stopBtn {
+      background: #dc2626;
+      color: #fff;
+    }
+    #stopBtn:hover {
+      background: #b91c1c;
+      transform: scale(1.02);
+    }
+    p {
+      margin-top: 12px;
+      font-size: 13px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h3>🛒 Auto Shopping Bot</h3>
+  <button id="buyBtn">🚀 开始运行</button>
+  <button id="stopBtn">⏹ 停止运行</button>
+  <p>在商品页面点击“开始运行”即可自动刷新（间隔1.5s），直至进入下单流程。</p>
+  <script src="popup.js"></script>
+</body>
+</html>
