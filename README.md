@@ -1,1 +1,0 @@
-# auto_shopping_extension
